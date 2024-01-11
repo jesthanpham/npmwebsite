@@ -1,0 +1,47 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+#hero {
+  background-image: url(https://cmsv2-assets.apptegy.net/uploads/12635/file/1669136/0680d7d0-af56-4b6f-b5cc-ec3a6fa7e56e.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 40vh;
+  position: relative;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
+.hook img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

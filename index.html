@@ -2,11 +2,179 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="styles.css">
+  <title>Taniére du loup</title>
 </head>
 <body>
+  
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+    
+    <div class="container">
+      <a href="#" class="navbar-brand">Taniére du loup</a>
+
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navmenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#media" class="nav-link">Pictures</a>
+            
+          </li>
+          <li class="nav-item">
+            <a href="#questions" class="nav-link">Recent Games</a>
+          </li>
+          <li class="nav-item">
+            <a href="#faq" class="nav-link">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Hero-->
+  <section class="bg-dark text-dark p-5 text-center text-sm-start"
+  id="hero">
+    <div class="container cover-overlay"> 
+      <div class="d-sm-flex align-items-center justify-content-between" >
+        
+        <div>
+          <h1>TANIÉRE <span class="text-warning">DU LOUP</span></h1>
+          <p class="lead text-dark my-4"><b>JCM's answer to all sporting needs.</b></p>
+          <a href="#media"class="btn btn-primary btn-lg">Take a Look</a>
+        </div>
+        
+        <img class="img-fluid h-50  d-none d-sm-block" src="https://cmsv2-assets.apptegy.net/uploads/12635/logo/14423/James-Cardinal-McGuigan.png" 
+        alt="JCM LOGO">
+
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-primary text-dark pb-1 pt-2 text-center">
+    <div class="container">
+      <h5><i>where dreams are born and legends are made</i></h5>
+    </div>
+  </section>
+
+  <!--HOOK-->
+  <section class="hook p-5 bg-dark text-light text-center">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="https://cmsv2-assets.apptegy.net/uploads/12635/logo/14423/James-Cardinal-McGuigan.png" alt="">
+        </div>
+        <div class="col-md p-5">
+          <p class="lead">
+            UNVEILING THE FUTURE
+          </p>
+          <p>Taniére du loup is a groundbreaking sports 
+            stadium designed to tackle environmental issues head-on. This state-of-the-art 
+            facility not only hosts thrilling sports events but also champions sustainability. 
+            By supporting Taniére du loup, you're not just witnessing sports, you're fostering a greener 
+            tomorrow and empowering young athletes. Be part of the change!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hook p-5 bg-light text-dark text-center">
+    <div class="container" >
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <p class="lead">
+            StatTrak
+          </p>
+          <p>Elevate your game with StatTrak, the exclusive sports game stat tracker 
+            embedded in our cutting-edge stadium experience. Revolutionize how you 
+            follow the action, with real-time insights, player analytics, and interactive 
+            features. Don't just watch, immerse yourself in the stats. Elevate your passion 
+            for sports with StatTrak, where every play counts!</p>
+        </div>
+        <div class="col-md">
+          <img src="https://cmsv2-assets.apptegy.net/uploads/12635/logo/14423/James-Cardinal-McGuigan.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--MEDIA-->
+  <section class="p-5 bg-dark text-light text-center" id="media">
+    <h2>MEDIA</h2>
+    <div class="container gallery">
+      <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png" alt="">
+      <img class="img-fluid" src="https://i.etsystatic.com/17942801/r/il/d20398/1625650383/il_570xN.1625650383_2ypi.jpg" alt="">
+      <img class="img-fluid" src="https://img.freepik.com/free-vector/volleyball-sports-ball_78370-346.jpg?size=338&ext=jpg&ga=GA1.1.1412446893.1704844800&semt=ais" alt="">
+    </div>
+  </section>
+  
+  <!--accordion-->
+  <section class="p-5" id="faq">
+    <div class="container">
+      <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+      <div class="accordion" id="accordionExample">
+        <!--item one-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!--item two-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!--item three-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; Taniére du loup</p>
+      <a href="" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
