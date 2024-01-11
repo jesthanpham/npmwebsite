@@ -3,7 +3,7 @@
 body::before {
   display: block;
   content: '';
-  height: 60px;
+  margin-top: 60px;
 }
 
 #hero {
