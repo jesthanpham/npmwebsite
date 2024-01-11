@@ -1,3 +1,5 @@
+
+
 body::before {
   display: block;
   content: '';
@@ -5,7 +7,7 @@ body::before {
 }
 
 #hero {
-  background-image: url(https://cmsv2-assets.apptegy.net/uploads/12635/file/1669136/0680d7d0-af56-4b6f-b5cc-ec3a6fa7e56e.png);
+  background-image: url(/assets/jcmfront.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
