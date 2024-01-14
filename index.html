@@ -10,7 +10,7 @@
 <body>
   
   <!--navbar-->
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+  <nav id="navbar" class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
     
     <div class="container px-4">
       <a href="#" class="navbar-brand">Taniére du loup</a>
@@ -27,11 +27,10 @@
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="#media" class="nav-link">Pictures</a>
-            
+            <a href="#stattrak" class="nav-link">StatTrak</a>
           </li>
           <li class="nav-item">
-            <a href="#questions" class="nav-link">Recent Games</a>
+            <a href="#media" class="nav-link">Pictures</a>
           </li>
           <li class="nav-item">
             <a href="#faq" class="nav-link">FAQ</a>
@@ -63,7 +62,7 @@
 
   <section class="bg-primary text-dark pb-1 pt-2 text-center">
     <div class="container">
-      <h5><i>where dreams are born and legends are made</i></h5>
+      <h5><i>"where dreams are born and legends are made"-Boateng Anoyke</i></h5>
     </div>
   </section>
 
@@ -72,7 +71,7 @@
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-md">
-          <img src="https://cmsv2-assets.apptegy.net/uploads/12635/logo/14423/James-Cardinal-McGuigan.png" alt="">
+          <img src="assets/bigstadium.jpg" alt="">
         </div>
         <div class="col-md p-5">
           <p class="lead">
@@ -89,8 +88,8 @@
     </div>
   </section>
 
-  <section class="hook p-5 bg-light text-dark text-center">
-    <div class="container" >
+  <section id="stattrak" class="hook p-5 bg-light text-dark text-center">
+    <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-md p-5">
           <p class="lead">
@@ -101,22 +100,84 @@
             follow the action, with real-time insights, player analytics, and interactive 
             features. Don't just watch, immerse yourself in the stats. Elevate your passion 
             for sports with StatTrak, where every play counts!</p>
-          <button href="#media"class="btn btn-primary btn-lg">Preview</button>
         </div>
         <div class="col-md">
-          <img src="https://cmsv2-assets.apptegy.net/uploads/12635/logo/14423/James-Cardinal-McGuigan.png" alt="">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img class="card-img-top" src="assets/sbc.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">BASKETBALL</h5>
+              <p class="card-text">JCM AT BASILS</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#stat-modal">89-11</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
+  <div class="modal fade" id="stat-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">JCM AT BASILS (BASKETBALL)</h5>
+          <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+        </div>
+        <div class="modal-body">
+          <!--JCM-->
+          <div class="col">
+            <div class="row">
+              <div class="col">JESSMAR TENDENILLA</div>
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col"></div>
+            </div>
+            <div class="row">
+              <div class="col">OTHER GUY</div>
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col"></div>
+            </div>
+            <div class="row">
+              <div class="col">OTHER GUY</div>
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col"></div>
+            </div>
+            <div class="row">
+              <div class="col">OTHER GUY</div>
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col"></div>
+            </div>
+            <div class="row">
+              <div class="col">OTHERGUY</div>
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col"></div>
+            </div> 
+          </div>
+          <!--SBC-->
+          <div class="col">
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div> 
+          </div>
+        </div>
+        <div class="modal-footer align-items-center">
+        <p><i>Taniére du loup: StatTrak</i></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!--MEDIA-->
   <section class="p-5 bg-dark text-light text-center" id="media">
     <h2>MEDIA</h2>
     <div class="container gallery">
-      <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png" alt="">
-      <img class="img-fluid" src="https://i.etsystatic.com/17942801/r/il/d20398/1625650383/il_570xN.1625650383_2ypi.jpg" alt="">
-      <img class="img-fluid" src="https://img.freepik.com/free-vector/volleyball-sports-ball_78370-346.jpg?size=338&ext=jpg&ga=GA1.1.1412446893.1704844800&semt=ais" alt="">
+      <img class="img-fluid" src="assets/bigstadium.jpg" alt="">
+      <img class="img-fluid" src="assets/bigstadium2.jpg" alt="">
     </div>
   </section>
   
@@ -129,7 +190,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Accordion Item #1
+              Why a stadium?
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -142,7 +203,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Accordion Item #2
+              How will this affect my life?
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -155,7 +216,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Accordion Item #3
+              How can I help?
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -172,7 +233,7 @@
   <footer class="p-5 bg-dark text-white text-center position-relative">
     <div class="container">
       <p class="lead">Copyright &copy; Taniére du loup</p>
-      <a href="" class="position-absolute bottom-0 end-0 p-5">
+      <a href="#top" class="position-absolute bottom-0 end-0 p-5">
         <i class="bi bi-arrow-up-circle h1"></i>
       </a>
     </div>
