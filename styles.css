@@ -1,4 +1,6 @@
-
+p {
+  font-size: 1.2em;
+}
 
 body::before {
   display: block;
